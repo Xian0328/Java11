@@ -1,6 +1,4 @@
 
-package java111;
-
 abstract class CShape               // 定義抽象類別CShape
 {
 	protected String color;   // 資料成員
