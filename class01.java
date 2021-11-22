@@ -1,9 +1,6 @@
 
 package java111;
 
-import ch11.app11_1.CCircle;
-import ch11.app11_1.CRectangle;
-
 abstract class CShape               // 定義抽象類別CShape
 {
 	protected String color;   // 資料成員
@@ -11,10 +8,6 @@ abstract class CShape               // 定義抽象類別CShape
 	{
 	   color=str;
 	}
-	//public void setColor(String str)    // 一般的函數
-	//{
-		//color=str;
-	//}
 	public abstract void show(); // 抽象函數，只有定義名稱，沒有定義處理方式
 }
 
