@@ -34,8 +34,8 @@ public class class02 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Compute cmp=new Compute();
-		cmp.mul(3, 5);
-		cmp.show();
+		cmp.mul(3, 5);//­pºâ3*5
+		cmp.show();//"ans=15"
 	}
 
 }
